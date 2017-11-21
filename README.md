@@ -1,6 +1,6 @@
 # Layman Brothers
 
-The Layman brothers banking web app is a the latest digital banking project to revolutionalize the industry, one Maker's Academy student at a time.
+The Layman brothers banking web app is the latest digital banking project to revolutionalize the industry, one Maker's Academy student at a time.
 
 It was developed in Java for the Maker's Academy final project by Etienne Mustow, Joe Ingram, Keith Amoah, Marcus Rands, Nero Siva and Will Cabangon.
 
@@ -81,14 +81,15 @@ Visit http://localhost:8080/homepage
 ## Technology stack
 
 - Java
+- Maven
+- Spring Boot
 - Spring Tool Suite
 - Bootstrap
 - HTML
 - CSS
-- Tested with JUnit
-- Maven
+- JUnit testing
 - PostgreSQL
-- Spring Boot
+
 
 ## Running the tests
 ```
@@ -103,6 +104,24 @@ Click on the arrow beside the green 'run' button
 ![Alt text](/images/Button3.png)
 
 ## Deployment
+
+## Notes
+
+### Challenges
+
+There were many challenges involved in building this project. Foremost amongst these is the fact that none of our team members had any previous experience of Java development. As such, we required several days of getting to grips with the language and the Spring Boot framework before we could actually start building anything concrete. Another large challenge involved trying to connect our application to a postgresql database. This required a great deal more configuration that we have been used to when working with databases in other languages. However, we did eventually manage this task and the program will allow you to persist data.
+
+### Extra features
+
+  There are a couple of extra features that we would have liked to implement:
+  
+  - User authentication and security. Ideally, we would have had time to look at using Spring Security (part of the Spring framework) to build these features.
+  
+  - The ability to transfer funds between different users' accounts.
+  
+  - An admin portal to give an administrator an overview of the accounts logged with the application.
+
+
 
 
 ## Authors
